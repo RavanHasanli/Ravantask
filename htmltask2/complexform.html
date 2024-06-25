@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        fieldset{
+            width: 700px;
+        }
+    </style>
+</head>
+<body>
+    <form action="">
+        <fieldset>
+            <legend>Personal Information</legend>
+            <label for="">Name:</label>
+            <input type="text"><br><br>
+            <label for="">Email:</label>
+            <input type="email" name="" id=""><br><br>
+            <label for="">Phone:</label>
+            <input type="tel" name="" id=""><br><br>
+            <label for="">Date of Birth</label>
+            <input type="date" name="" id=""><br><br>
+            <label for="">Gender</label>
+            <input type="radio" name="" id="">
+            <label for="">Male</label>
+            <input type="radio" name="" id="">
+            <label for="">Female</label><br><br>
+            <label for="">Country</label>
+            <select name="" id="">
+                <option value="">India</option>
+            </select>
+        </fieldset>
+        <fieldset>
+            <legend>Address</legend>
+            <label for="">Street</label>
+            <input type="text"><br><br>
+            <label for="">City</label>
+            <input type="text"><br><br>
+            <label for="">State</label>
+            <input type="text"><br><br>
+            <label for="">Zip Code</label>
+            <input type="text"><br><br>
+        </fieldset>
+        <fieldset>
+            <legend>Other Information</legend>
+            <label for="">Comments</label>
+            <textarea name="" id=""></textarea>
+            <label for="">I agree to the terms of service</label>
+            <input type="checkbox" name="" id="">
+        </fieldset><br>
+        <input type="submit" value="Sumbit">
+    </form><br><br>
+
+    <table border="1" style="width: 600px;">
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Value</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Name</td>
+                <td>Nazli</td>
+            </tr>
+            <tr>
+                <td>Gender</td>
+                <td>
+                    <input type="radio" name="" id="">
+                    <label for="">male</label><br>
+                    <input type="radio" name="" id="" checked>
+                    <label for="">female</label>
+                </td>
+            </tr>
+            <tr>
+                <td>eye color</td>
+                <td>
+                    <select name="" id="">
+                        <option value="">green</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td>Check all that apply</td>
+                <td>
+                    <input type="checkbox" name="" id="">
+                    <label for="">over 6 feet tall</label><br>
+                    <input type="checkbox" name="" id="">
+                    <label for="">over 200 pounds</label>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2">
+                    <label for="">Describe your ability:</label><br>
+                    <textarea name="" id="" style="width: 600px; height: 100px;"></textarea>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2"><input type="button" value="Send all information" style="margin-left: 220px;"></td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>
